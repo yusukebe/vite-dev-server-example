@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:wrangler": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230821.0",
+    "@hono/vite-dev-server": "^0.0.9",
+    "vite": "^4.4.9",
+    "wrangler": "^3.8.0"
+  }
+}
